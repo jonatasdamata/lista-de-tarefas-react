@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Lista de tarefas - React.js
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/jonatasdamata/listadetarefas/blob/master/LICENSE) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+https://jonatas-listadetarefas.netlify.app/
 
-In the project directory, you can run:
+Trata-se de um aplicativo que integra Banco de Dados e Login com Firebase, proporcionando diversas funcionalidades, como: Realizar login; Cadastrar novos usuários; Acessar minhas tarefas; Adicionar novas tarefas; Editar tarefas; Concluir tarefas; Botão de sair da conta (que impede o acesso à página de administração onde estão as tarefas do usuário).
 
-### `npm start`
+## Página de Login
+![login](https://github.com/jonatasdamata/listadetarefas/assets/144968541/c1f22afa-8b88-45d3-a198-e233cff9ec99)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Página Home (Admin.)
+![editar](https://github.com/jonatasdamata/listadetarefas/assets/144968541/130e7d1a-f3a3-4e7c-b29f-2475c536fd98)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![home](https://github.com/jonatasdamata/listadetarefas/assets/144968541/ce10e13f-fd92-459c-a493-2190566e72a6)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cadastrar Novo Usuário 
+![cadastro](https://github.com/jonatasdamata/listadetarefas/assets/144968541/ae8d6a34-4369-4138-8937-9831808b71f9)
 
-### `npm run build`
+# Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ReactJS
+- Javascript
+- CSS
+- HTML
+  
+  
+## Implantação em produção
+- Front end web: Netlify
+- Banco de dados: Firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Competências
+- Roteamento e paginação;
+- Utilização de Hooks como useEffect, useState, useParams e useNavigate;
+- Implementação de um banco de dados através do Firebase;
+- Autenticação de usuários via Firebase, com a importação de firebase/auth;
+- Utilização do Firestore para manipulação do banco de dados, com a importação de firebase/firestore.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Como executar o projeto
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Front end web
+Pré-requisitos: npm / yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# clonar repositório
+git clone https://github.com/jonatasdamata/listadetarefas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# entrar na pasta do projeto 
+cd listadetarefas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# instalar dependências
+yarn install
 
-## Learn More
+# executar o projeto
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Jonatas da Mata
 
-### Code Splitting
+https://www.linkedin.com/in/jonatas-da-mata-16a752287/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
