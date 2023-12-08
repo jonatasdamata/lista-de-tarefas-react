@@ -62,5 +62,5 @@ yarn start
 
 Jonatas da Mata
 
-https://www.linkedin.com/in/jonatas-da-mata-16a752287/
+https://www.linkedin.com/in/jonatasdamatadev/
 
